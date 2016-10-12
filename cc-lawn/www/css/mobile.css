@@ -1,0 +1,36 @@
+@media (min-width: 500px) and (max-width: 600px)
+{
+    body {
+    }
+}
+
+/* If width is greater than 500 do this stuff */
+@media (min-width: 500px)
+{
+}
+
+/* If width is less than 600 do this stuff */
+@media (max-width: 600px)
+{
+    #logo {
+        margin:auto;
+        position:relative;
+        text-align:center;
+    }
+    #logo img {
+        margin:auto;
+    }
+    #menu a {
+        display:block;
+    }
+    #slideshow {
+        height:100px;
+    }
+    #blocks div {
+        margin:auto;
+        width:90%;
+    }
+    img {
+        max-width:100%;
+    }
+}
